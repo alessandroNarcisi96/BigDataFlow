@@ -8,7 +8,7 @@ The goal of this project is to build a data processing pipeline in Python based 
 ### Fake the user post
 Basically there is a script that simulate a new post from a user.
 The script is visible in user_posting_emulation.py.
-Basically in a rds there are recorded the posts and randomically they are picked and used to be sent
+In a RDS the posts are recorded and randomically they are picked and used to be sent
 
 ### Handle the post and create a Kafka Producer
 I built an Api using FastAPI that will handle the get request.
